@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nuestras cuentas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1>💞 Nuestras cuentas</h1>
+    <nav id="tabs" class="tabs"></nav>
+  </header>
+  <main id="main"></main>
+  <footer class="foot">
+    <button class="btn ghost" data-action="export">⬇️ Exportar copia</button>
+    <label class="btn ghost">⬆️ Importar copia<input type="file" id="importFile" accept="application/json" hidden></label>
+    <button class="btn ghost danger" data-action="wipe">🗑️ Borrar todo</button>
+    <p class="hint">Los datos se guardan en este navegador. Para compartirlos entre vuestros dispositivos, exportad e importad la copia.</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
